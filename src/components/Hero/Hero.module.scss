@@ -1,0 +1,101 @@
+.hero {
+  background-image: url("../../assets/images/heroBg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  padding: 113px 0px 114px 0px;
+
+  .container {
+    max-width: 1522px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero_container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    .hero_left {
+      max-width: 657px;
+      width: 100%;
+
+      .text {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 45px;
+          border: 1px solid #7f27ff;
+        }
+      }
+
+      .desc {
+        color: #1a1d27;
+        font-size: 80px;
+        line-height: 88px;
+        font-weight: 700;
+
+        span {
+          background: #ff8911;
+        }
+      }
+
+      p {
+        color: #1a1d27cc;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 24px;
+      }
+
+      div {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        a {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          font-size: 15px;
+          line-height: 16px;
+          letter-spacing: 1px;
+          color: #1a1d27;
+        }
+      }
+    }
+
+    .hero_right {
+        position: relative;
+        .hero_img {
+            width: 716px;
+            height: 733px;
+            object-fit: contain;
+            position: relative;
+        }
+
+        .image_card {
+            position: absolute;
+            left: -94px;
+            bottom: 69px;
+        }
+
+        div {
+            max-width: 203px;
+            width: 100%;
+            background: #fff;
+            padding: 23px 0px 23px 18px;
+            border-radius: 10px;
+            position: absolute;
+            top: 292px;
+            right: -72px;
+        }
+    }
+  }
+}
