@@ -2,7 +2,7 @@ import React from "react";
 import Text from "../ui/Text/Text";
 import style from "./Aboutus.module.scss";
 import imageOne from "../../assets/images/imageone.png";
-import imageTwo from "../../assets/images/imageTwo.png";
+import imageTwo from "../../assets/images/imagetwo.png";
 import AboutRight from "./AboutRight/AboutRight";
 
 const Aboutus = () => {
