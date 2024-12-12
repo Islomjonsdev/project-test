@@ -88,3 +88,23 @@ const serviceCard = [
 ];
 
 export { serviceCard }
+
+const companyData = [
+    {
+        companyTitle: "An Award winning company",
+        companyBody: "Assertively streamline interactive interfaces after value-added infrastructures. Authoritatively fabricate fully tested methodologies before. Holistic deliver "
+    },
+    {
+        companyTitle: "Quick Research and Solutions",
+        companyBody: "Assertively streamline interactive interfaces after value-added infrastructures. Authoritatively fabricate fully tested methodologies before. Holistic deliver "
+    },
+    {
+        companyTitle: "Dedicated Support 24/7",
+        companyBody: "Assertively streamline interactive interfaces after value-added infrastructures. Authoritatively fabricate fully tested methodologies before. Holistic deliver "
+    },
+    {
+        companyTitle: "Quick Support & Tech Solution",
+        companyBody: "Assertively streamline interactive interfaces after value-added infrastructures. Authoritatively fabricate fully tested methodologies before. Holistic deliver "
+    }
+]
+export { companyData }
